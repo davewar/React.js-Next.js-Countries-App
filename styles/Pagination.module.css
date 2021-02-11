@@ -1,0 +1,42 @@
+.pagination{
+    margin-top: 1rem;
+
+}
+
+.ulItem{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+
+}
+.liItem{
+     border: 0.25px solid black;
+    padding: 0.25rem 1rem;
+    margin: 1rem 1rem;
+    text-decoration: none;
+    
+}
+
+.aItem{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.aItem:hover{
+    color:white;
+        
+}
+
+.liItem{
+
+    animation-name: myBtn;
+    transition-property: all;
+    transition-duration: 2.5s;
+
+}
+
+.liItem:hover{
+    background: blue;
+        
+}

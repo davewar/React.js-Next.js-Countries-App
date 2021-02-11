@@ -1,0 +1,49 @@
+.container {
+  min-height: 90vh;
+  /* padding: 0 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid black;
+  background: white;
+  margin-top: 1rem;
+  position: relative;
+
+  
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  
+}
+
+.container:hover{
+  transform: rotateY(360deg);
+
+}
+
+.flagImage{
+  height:60vh;
+  width: 100%;
+  object-fit: cover;
+  border-bottom:2px solid black;
+}
+
+.text{
+  /* position: absolute; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 3rem;  
+    
+}
+
+.title{
+  display: flex;
+  color: black;
+  padding-left: 1rem ;
+  padding-top: 1rem ;
+  
+ 
+}

@@ -1,0 +1,36 @@
+.showcase{
+height:300px;
+
+}
+
+.showcase h1{
+
+    font-size: 3rem;    
+    position: relative;
+    animation-name: myHeading ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myHeading{
+    0% {top:-0px}
+    100% {top:200px}
+}
+
+.content{
+position: relative;
+animation-name: myContent;
+opacity: 0;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-timing-function: ease-in;
+color:white;
+font-weight: bold ;
+
+}
+
+@keyframes myContent{
+    0% {opacity: 0; font-size: 0;}
+    50% {opacity: 0.5; font-size: 1rem;}
+    100% {opacity: 1;font-size: 2rem;}
+}
