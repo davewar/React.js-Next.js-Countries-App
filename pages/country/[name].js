@@ -56,8 +56,14 @@ const Country = (props) => {
                 if(router.isFallback){
                     return <h1>Loading.......</h1>
                 }
+               
+
+
+                const {name,flag,population,region,capital} = props.data[0]  
                 
-                const {name,flag,population,region,capital} = props.data[0]   
+                 if(!props.data[0]){
+                     return <h1>No Data </h1>
+                 }
                 //  console.log(name,flag,population,region,capital);
        
        
