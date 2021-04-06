@@ -19,6 +19,7 @@
 
 .container:hover{
   transform: rotateY(360deg);
+  transform-style: preserve-3d;
 
 }
 

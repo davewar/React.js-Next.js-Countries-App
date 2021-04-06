@@ -59,10 +59,12 @@ const Country = (props) => {
                
 
 
-                const {name,flag,population,region,capital} = props.data[0]  
                 
-                 if(!props.data[0]){
+                
+                 if(!props.data[0] || props.data[0] === "undefined"){
                      return <h1>No Data </h1>
+                 } else{
+                    const {name,flag,population,region,capital} = props.data[0]  
                  }
                 //  console.log(name,flag,population,region,capital);
        
